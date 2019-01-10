@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "yogi_run_latest",
-    "currentPage": "page5.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -11,7 +11,7 @@
       ]
     },
     "versionFirst": "4.0.15",
-    "uniqCompNum": 27,
+    "uniqCompNum": 28,
     "versionPublish": "4.0.15"
   },
   "pages": {
@@ -312,7 +312,7 @@
     "RoutesRewards.html": {
       "settings": {
         "title": "Routes",
-        "order": 5,
+        "order": 6,
         "meta_descr": "RoutesRewards"
       },
       "components": [
@@ -533,7 +533,7 @@
     "TransitSupport.html": {
       "settings": {
         "title": "TransitSupport",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -625,7 +625,7 @@
     "prize_money.html": {
       "settings": {
         "title": "prize_money",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -698,7 +698,7 @@
     "partners.html": {
       "settings": {
         "title": "partners",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -878,7 +878,7 @@
     "page5.html": {
       "settings": {
         "title": "philosophy",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1099,6 +1099,64 @@
           ],
           "_name": "gallery1",
           "_anchor": "gallery1-q"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "title": "Test",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#f4f4f4",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"#top\" aria-expanded=\"false\">Race Info</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RoutesRewards.html\">Route and Event Schedule</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Prize</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Prize Details&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Results&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Prize Ceremony</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">FAQ</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Transit to Location</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#top\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">About</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Partners</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">NNCF</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Team</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://www.townscript.com/e/yogi-run-nandi-hills-211020\">Register</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">Philosophy</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#f4f4f4"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#eaeaea"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Yogi Run</a>",
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-r"
         }
       ]
     }

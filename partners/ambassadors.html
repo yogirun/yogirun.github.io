@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Load Materialize CSS asynchronously -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="none" onload="if(media!='screen,projection')media='screen,projection'">
+		<!-- Load Material Icons -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="none" onload="if(media!='screen,projection')media='screen,projection'">
+		
+		<!-- Basic meta tags -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Set the shortcut icon -->
+		<link rel="shortcut icon" type="image/png" href="favicon.png">
+		<!-- Let browser know website is optimized for mobile -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Progressive Web App meta tags -->
+		<link rel="manifest" href="manifest.json">
+		<meta name="theme-color" content="#111111">
+		<meta name="Description" content="yogi.run ambassadors">
+		<!--Title-->
+		<title>yogi.run | Ambassadors</title>
+		<style>
+			html{
+				font-display: fallback !important;
+			}
+			body {
+				display: flex;
+				min-height: 100vh;
+				flex-direction: column;
+				background-color: #ffffff;
+				color: #212121;
+			}
+
+			main {
+				flex: 1 0 auto;
+			}
+			a{
+				color: #00FF00;
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+			.page-footer{
+				background-color: #00FF00;
+				padding-top: 0px;
+			}
+			.page-footer .footer-copyright{
+				color: #111111;
+				font-weight: bold;
+			}
+			.btn-large{
+				background-color: #ffffff;
+				color: #212121;
+				margin-left: 3em;
+				font-weight: bold;
+				font-size: 1.5em;
+			}
+			.btn-large:hover{
+				background-color: #00FF00;
+				color: #111111;
+				margin-left: 3em;
+				font-weight: bold;
+				font-size: 1.5em;
+			}
+			.bounce {
+				-moz-animation: bounce 2s infinite;
+				-webkit-animation: bounce 2s infinite;
+				animation: bounce 2s infinite;
+			}
+			@keyframes bounce {
+				0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+				40% {transform: translateY(-30px);}
+				60% {transform: translateY(-15px);}
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<div class="row" style="margin-top:3%;">
+			<input class= "btn-large" type="button" value="Home" onclick="history.back(-1)" />
+		
+				<div id="titleContent" class="col s6 offset-s1">
+					<h1>Yogi Run | Ambassadors</h1>
+					<h5>&emsp;The people who made it all possible.</h5>
+				</div>
+			</div>
+			<div class="row" style="margin-top:5%;">
+				<div class="col s6 offset-s3">
+					<div id="caraouselSlides" class="carousel carousel-slider center">
+						<div class="carousel-fixed-item center">
+							<img id="logo" src="favicon.png" alt="Unable to load image" style="width:128px; height:128px;"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s2 offset-s5 center-align bounce">
+					<a id="section2trigger" href="#section2"><i class="material-icons" style="font-size:5em;">keyboard_arrow_down</i></a>
+				</div>
+			</div>
+			<div id="section2" class="row" style="padding-top:10em;"></div>
+		</main>
+		<footer class="page-footer">
+			<div class="footer-copyright">
+				<div class="container">&copy; <span id="footerYear"></span> Namma Nimma Cycle Foundation</div>
+			</div>
+		</footer>
+		<!-- Load scripts -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous" defer></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+		<script type="text/javascript" src="https://spreadsheets.google.com/feeds/cells/1tQPNaF5_j4_g2u1AQPUWoJFLZauRF9NnGiJ4HqVonHc/1/public/values?alt=json-in-script&callback=ambassadorData" defer></script>
+		<script type="text/javascript" defer>
+		
+			/* Global variables */
+			
+			var caraousel = '';
+			var titleList = [];
+			var descriptionList = [];
+			var imageURLList = [];
+			var webURLList = [];
+			
+			
+			/* Scope-free function definitions */
+			
+			function appendSlide(id, title, description){
+				document.getElementById('caraouselSlides').innerHTML += '<div id="'+id+'" class="carousel-item white-text"><h2>'+title+'</h2><p class="white-text">'+description+'</p></div>';
+			}
+			
+			function appendGridCard(id, title, description, imageLink, webLink){
+				document.getElementById('section2').innerHTML += '<div id="'+id+'" class="col s3"><div class="card grey darken-4"><div class="card-image"><img class="materialboxed" style="width:454px; object-fit:cover;" src="'+imageLink+'"><span class="card-title">'+title+'</span><a href="'+webLink+'" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">open_in_new</i></a></div><div class="card-content"><p>'+description+'</p></div></div>';
+			}
+			
+			/* Caraousel slide change listener */
+			function onCaraouselCycled(element){
+				document.getElementById('logo').src = imageURLList[element.id];
+			}
+			
+			function ambassadorData(data){
+				for(var i=4; i<data.feed.entry.length; i+=4){
+					titleList.push(data.feed.entry[i].gs$cell.$t);
+					descriptionList.push(data.feed.entry[i+1].gs$cell.$t);
+					imageURLList.push(data.feed.entry[i+2].gs$cell.$t);
+					webURLList.push(data.feed.entry[i+3].gs$cell.$t);
+				}
+			}
+			
+			window.onload = function(){
+				
+				/* Set footer year */
+				document.getElementById("footerYear").innerHTML = new Date().getFullYear();
+				
+				/* Initialize MaterialBoxed */
+				$('.materialboxed').materialbox();
+				
+				/* Handle down arrow click */
+				document.getElementById('section2trigger').onclick = function(){
+					$('html, body').animate({
+						scrollTop: $('#section2').offset().top
+					}, 1000);
+				}
+				
+				setTimeout(function(){
+					for(var i=0; i<titleList.length; i++){
+						appendSlide(i, titleList[i], descriptionList[i]);
+						appendGridCard(i, titleList[i], descriptionList[i], imageURLList[i], webURLList[i]);
+						
+						/* Reinitialize MaterialBoxed */
+						$('.materialboxed').materialbox();
+					}
+					
+					/* Initialize caraousel */
+					caraousel = $('.carousel.carousel-slider').carousel({
+						fullWidth: true,
+						indicators: true,
+						onCycleTo: onCaraouselCycled
+					});
+					
+					setInterval(function(){
+						$('.carousel').carousel('next');
+					}, 3000);
+				}, 3000);
+				
+			}
+		</script>
+		<noscript>Your browser is not using javascript.</noscript>
+	</body>
+</html>

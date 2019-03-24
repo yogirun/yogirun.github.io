@@ -1,0 +1,19 @@
+{  
+    "short_name":"yogi.run",
+    "name":"Yogi Run",
+    "icons":[  
+        {  
+            "src":"favicon.png",
+            "type":"image/png",
+            "sizes":"512x512"
+        }	
+    ],
+    "background_color":"#111111",
+    "display":"standalone",
+    "orientation":"portrait",
+    "theme_color":"#111111",
+    "start_url":"index.html",
+    "manifest_version": 2,
+    "version": "1.0",
+    "summary":"yogi.run"
+}

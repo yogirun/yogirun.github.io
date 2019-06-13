@@ -1,6 +1,6 @@
 {
-  "short_name":"Yogi Run | Partners",
-  "name":"Partners of Yogi Run",
+  "short_name":"Yogi Run | Ambassadors",
+  "name":"Ambassadors of Yogi Run",
   "icons":[
     {
       "src":"images/icons/favicon-32.png",
@@ -15,5 +15,5 @@
   "start_url":"index.html",
   "manifest_version": 2,
   "version": "1.0",
-  "summary":"This web app will show partners of Yogi Run"
+  "summary":"This web app will show ambassadors of Yogi Run"
 }

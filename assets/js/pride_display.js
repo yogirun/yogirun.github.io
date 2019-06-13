@@ -16,7 +16,7 @@ angular.module('CrisApp', [])
              Name: "ISSAC KEMBOI ",
             Position: "2nd",
             BIB: "21059",
-			link: 'http://yogi.run/assets/img/nandiwinner/21k_2_openmen.jpg',
+			link: 'http://yogi.run/assets/img/nandiwinner/BiB#21059_1.jpg',
             Category: "21KM Open Men"
         },
         {

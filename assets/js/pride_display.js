@@ -6,39 +6,39 @@ angular.module('CrisApp', [])
       $scope.setCards = function() {
         $scope.cards = [
         {
-            Name: "Alfred",
-            Position: "Butler",
-            BIB: "Batman",
-			link: 'http://yogi.run/assets/img/nandiwinner/5k_1_openmen.jpg',
-            Color: "red"
-        },
-        {
-            Name: "Jane",
-            Occupation: "Queen of Jungle",
-            Employer: "Tarzan",
-          
+            Name: "Mikiyas Yemata Lemlemu",
+            Position: "1st",
+            BIB: "21061",
 			link: 'http://yogi.run/assets/img/nandiwinner/21k_1_openmen.jpg',
+            Category: "21KM Open Men"
         },
         {
-            Name: "Aladdin",
-            Occupation: "Beggar Prince",
-            Employer: "Self-Employed",
-          
+             Name: "ISSAC KEMBOI ",
+            Position: "2nd",
+            BIB: "21059",
 			link: 'http://yogi.run/assets/img/nandiwinner/21k_2_openmen.jpg',
+            Category: "21KM Open Men"
         },
         {
-            Name: "Bill Gates",
-            Occupation: "Bajillionaire",
-            Employer: "Microsoft",
-          
-       link: 'http://yogi.run/assets/img/nandiwinner/21k_3_openmen.jpg',
+            Name: "Adinew Mekonnen Tolesa",
+            Position: "3rd",
+            BIB: "21060",
+			link: 'http://yogi.run/assets/img/nandiwinner/21k_3_openmen.jpg',
+            Category: "21KM Open Men"
         },
         {
-            Name: "Manny",
-            Occupation: "Code Monkey",
-            Employer: "Jolera",
-          
-          link: 'https://s-media-cache-ak0.pinimg.com/originals/2d/fb/d3/2dfbd38983291d3d0e5c1cb0667406b5.jpg',
+            Name: "Mikiyas Yemata Lemlemu",
+            Position: "1st",
+            BIB: "21061",
+			link: 'http://yogi.run/assets/img/nandiwinner/5k_1_openmen.jpg',
+            Category: "21KM Open Men"
+        },
+        {
+            Name: "Mikiyas Yemata Lemlemu",
+            Position: "1st",
+            BIB: "21061",
+			link: 'http://yogi.run/assets/img/nandiwinner/5k_1_openmen.jpg',
+            Category: "21KM Open Men"
         }]
     }
       $scope.setCards();

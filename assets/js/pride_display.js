@@ -26,18 +26,29 @@ angular.module('CrisApp', [])
 			link: 'http://yogi.run/assets/img/nandiwinner/21k_3_openmen.jpg',
             Category: "21KM Open Men"
         },
-        {
-            Name: "Mikiyas Yemata Lemlemu",
+				
+		
+	
+		
+      {
+            Name: "Upasana Koul",
             Position: "1st",
-            BIB: "21061",
-			link: 'http://yogi.run/assets/img/nandiwinner/5k_1_openmen.jpg',
+            BIB: "21086",
+			link: 'http://yogi.run/assets/img/nandiwinner/21k_1_openwomen.jpg',
             Category: "21KM Open Men"
         },
         {
-            Name: "Mikiyas Yemata Lemlemu",
-            Position: "1st",
-            BIB: "21061",
-			link: 'http://yogi.run/assets/img/nandiwinner/5k_1_openmen.jpg',
+             Name: "DEEPIKA PRAKASH",
+            Position: "2nd",
+            BIB: "21082",
+			link: 'http://yogi.run/assets/img/nandiwinner/21k_2_openwomen.jpg',
+            Category: "21KM Open Men"
+        },
+        {
+            Name: "SURABHI MAHATA",
+            Position: "3rd",
+            BIB: "21007	",
+			link: 'http://yogi.run/assets/img/nandiwinner/21k_3_openwomen.jpg',
             Category: "21KM Open Men"
         }]
     }

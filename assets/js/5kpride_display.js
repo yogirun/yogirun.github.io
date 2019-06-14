@@ -33,18 +33,7 @@ angular.module('CrisApp', [])
             BIB: "5003",
 			link: 'http://yogi.run/assets/img/nandiwinner/5003_2.jpg',
             Category: " 5 KM Open Men"
-        },
-				
-		
-	///////////////////
-	
-	/*
-	
-
-
-
-
-	*/
+        }, 
 		
       {
             Name: "Amisha ",
@@ -111,11 +100,7 @@ angular.module('CrisApp', [])
             BIB: "5030	",
 			link: 'http://yogi.run/assets/img/nandiwinner/5030_2.jpg',
             Category: "5 KM Masters Women "
-        }
-	 	///
-		//
-		
-		,
+        } ,
         {
             Name: "PANDURANGAN",
             Position: "1st",

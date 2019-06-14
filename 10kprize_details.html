@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/prize_style.css">
+    <!-- Our application/controller definitions -->
+	 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
+    <script src="assets/js/10kpride_display.js"></script>
+  <title>12kM winners </title>
+</head>
+<body>
+  <div ng-app="CrisApp">
+    <div ng-controller="AppController">
+	
+  <div class="box">
+ 
+        <div ng-repeat="card in cards">
+		<div  class="card"  >
+           <div class="imgBx">
+          <img  src="{{ card.link }}"/>
+		  </div>
+
+		  <div class="details">
+          {{card.Name}} <br />
+            {{card.Position}} <br />
+            Category: {{card.Category}} <br />
+		     BIB : {{card.BIB}} <br />
+			
+			 </div>
+           
+        </div>
+      <br />
+	  </div>
+      <span class="reset" ng-click="setCards()">Reset</span>
+    </div>
+</div>
+	</div>
+  </div>
+  
+  
+  
+  
+</body>
+</html>

@@ -120,7 +120,7 @@ angular.module('CrisApp', [])
             Name: "PANDURANGAN",
             Position: "1st",
             BIB: "5032	",
-			link: 'http://yogi.run/assets/img/nandiwinner/5032_2.jpg',
+			link: 'http://yogi.run/assets/img/nandiwinner/5032.jpg',
             Category: "5 KM Seniors Men"
         }
 		]

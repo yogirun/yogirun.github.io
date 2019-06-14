@@ -6,74 +6,74 @@ angular.module('CrisApp', [])
       $scope.setCards = function() {
         $scope.cards = [
         {
-            Name: "Mikiyas Yemata Lemlemu",
+            Name: "AMANUEL ABDU ALIYU ",
             Position: "1st",
-            BIB: "21061",
-			link: 'http://yogi.run/assets/img/nandiwinner/21k_1_openmen.jpg',
-            Category: "21KM Open Men"
+            BIB: "10096",
+			link: 'http://yogi.run/assets/img/nandiwinner/10096.jpg',
+            Category: "12kM Open Men"
         },
         {
-             Name: "ISSAC KEMBOI ",
+             Name: "RAHUL SHUKLA ",
             Position: "2nd",
-            BIB: "21059",
-			link: 'http://yogi.run/assets/img/nandiwinner/21059_1.jpg',
-            Category: "21KM Open Men"
+            BIB: "10103",
+			link: 'http://yogi.run/assets/img/nandiwinner/10103_1.jpg',
+            Category: "12kM Open Men"
         },
         {
-            Name: "Adinew Mekonnen Tolesa",
+            Name: "LONGSHITHUNG",
             Position: "3rd",
-            BIB: "21060",
-			link: 'http://yogi.run/assets/img/nandiwinner/21k_3_openmen.jpg',
-            Category: "21KM Open Men"
+            BIB: "10038",
+			link: 'http://yogi.run/assets/img/nandiwinner/10038_2.jpg',
+            Category: "12kM Open Men"
         },
 				
 		
 	///////////////////
 		
       {
-            Name: "Upasana Koul",
+            Name: "ZINASHWORK YENEW AMBI  ",
             Position: "1st",
-            BIB: "21086",
-			link: 'http://yogi.run/assets/img/nandiwinner/21k_1_openwomen.jpg',
-            Category: "21KM Open Men"
+            BIB: "10097",
+			link: 'http://yogi.run/assets/img/nandiwinner/10097_1.jpg',
+            Category: "12kM Open Women "
         },
         {
-             Name: "DEEPIKA PRAKASH",
+             Name: "MEGHNA K ",
             Position: "2nd",
             BIB: "21082",
-			link: 'http://yogi.run/assets/img/nandiwinner/21082_2.jpg',
-            Category: "21KM Open Men"
+			link: 'http://yogi.run/assets/img/nandiwinner/21082_1.jpg',
+            Category: "12kM Open WoMen"
         },
         {
-            Name: "SURABHI MAHATA",
+            Name: "DEEPTI NAYANI ",
             Position: "3rd",
             BIB: "21007	",
-			link: 'http://yogi.run/assets/img/nandiwinner/21k_3_openwomen.jpg',
-            Category: "21KM Open Men"
+			link: 'http://yogi.run/assets/img/nandiwinner/21007_2.jpg',
+            Category: "12kM Open WoMen"
         },
 		
 		///////////////
 		
 		{
-            Name: "SURESH CHAND",
+            Name: "MRINAL ",
             Position: "1st",
-            BIB: "21052",
-			link: 'http://yogi.run/assets/img/nandiwinner/21052_1.jpg',
-            Category: "21KM Open Men"
+            BIB: "10118",
+			link: 'http://yogi.run/assets/img/nandiwinner/10118_2.jpg',
+            Category: "12kM Masters (40-55) Men "
         },
         {
-             Name: "NANJUNDA K",
+             Name: "SRIVATHS RAVI ",
             Position: "2nd",
-            BIB: "21068",
-			link: 'http://yogi.run/assets/img/nandiwinner/21068_1.jpg',
-            Category: "21KM Open Men"
+            BIB: "10119",
+			link: 'http://yogi.run/assets/img/nandiwinner/10119_2.jpg',
+            Category: "12kM Masters (40-55) Men "
         },
         {
-            Name: "TAKATERU WATANABE",
+            Name: "SURESH D",
             Position: "3rd",
-            BIB: "21058",
-			link: 'http://yogi.run/assets/img/nandiwinner/21058.JPG',
-            Category: "21KM Open Men"
+            BIB: "10099",
+			link: 'http://yogi.run/assets/img/nandiwinner/10099.JPG',
+            Category: "12kM Masters (40-55) Men "
         },
 				
 		
@@ -81,25 +81,41 @@ angular.module('CrisApp', [])
 	
 		
       {
-            Name: "RAMASAMY ",
+            Name: "SHUBAMANGALA ML ",
             Position: "1st",
-            BIB: "21062",
-			link: 'http://yogi.run/assets/img/nandiwinner/21062_1.jpg',
-            Category: "21KM Open Men"
+            BIB: "10056",
+			link: 'http://yogi.run/assets/img/nandiwinner/10056.jpg',
+            Category: "12kM Masters (40-55) Women  "
         },
         {
-            Name: "MANMOHAN K R",
+            Name: "POONAM JOSHY ",
             Position: "2nd",
-            BIB: "21041",
-			link: 'http://yogi.run/assets/img/nandiwinner/21k_2_seniormen.jpg',
-            Category: "21KM Open Men"
+            BIB: "10077",
+			link: 'http://yogi.run/assets/img/nandiwinner/10077_2.jpg',
+            Category: "12kM Masters (40-55) Women  "
         },
         {
-            Name: "ASHWIN PADUKONE",
+            Name: "PRADNYA ANJAL",
             Position: "3rd",
-            BIB: "21084	",
-			link: 'http://yogi.run/assets/img/nandiwinner/21084.JPG',
-            Category: "21KM Open Men"
+            BIB: "10079	",
+			link: 'http://yogi.run/assets/img/nandiwinner/10079.jpg',
+            Category: "12kM Masters (40-55) Women  "
+        },
+		
+		
+      {
+            Name: "A BABA   ",
+            Position: "1st",
+            BIB: "10105",
+			link: 'http://yogi.run/assets/img/nandiwinner/10105_1.jpg',
+            Category: "12KM Seniors Men"
+        },
+        {
+            Name: "RAJESH JOSHY   ",
+            Position: "2nd",
+            BIB: "10078",
+			link: 'http://yogi.run/assets/img/nandiwinner/10078.jpg',
+            Category: "12KM Seniors Men"
         }
 	 	
 		
